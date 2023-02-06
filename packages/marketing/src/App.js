@@ -11,8 +11,8 @@ export default () => {
       <StylesProvider>
         <BrowserRouter>
           <Switch>
-            <Route path='/pricing' component={Pricing} />
             <Route path='/' exact component={Landing} />
+            <Route path='/pricing' component={Pricing} />
           </Switch>
         </BrowserRouter>
       </StylesProvider>
